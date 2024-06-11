@@ -26,6 +26,12 @@
     </plugins>
   </build>
   <dependencies>
+     <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.7.2</version> <!-- La versión puede variar -->
+        <scope>test</scope>
+    </dependency>
   	<dependency> 
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
